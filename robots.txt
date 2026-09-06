@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.bjt-tech.com/sitemap.xml
+Sitemap: https://bjt-tech.com/sitemap.xml
