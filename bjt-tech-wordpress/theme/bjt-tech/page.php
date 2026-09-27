@@ -1,0 +1,1 @@
+<?php get_header(); while(have_posts()): the_post(); ?><article <?php post_class(); ?>><?php if(!is_front_page()): ?><div class="page-hero"><div class="wrap"><span class="section-kicker light">BJT TECHNOLOGIES</span><h1><?php the_title(); ?></h1></div></div><?php endif; ?><div class="entry-content"><?php the_content(); ?></div></article><?php endwhile; get_footer(); ?>
